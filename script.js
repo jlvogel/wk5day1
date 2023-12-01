@@ -123,3 +123,5 @@ commentEls.forEach((commentEl, index) => {
   index+=2
   commentEl.style.fontSize = `${index*10}px`
 })
+
+// Good night World!
