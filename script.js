@@ -67,3 +67,10 @@
 //   <title>DOM Practice</title>
 //   <script defer src="js/script.js"></script>
 // </head> */}
+
+// let titleEl = document.getElementById('title');
+// console.log(titleEl);
+// console.dir(titleEl);
+// console.log(document.querySelector('h1'))
+console.log(document.querySelector('.main-title'))
+console.log(document.querySelectorAll('.main-title')[1])
