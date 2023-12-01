@@ -101,4 +101,12 @@ console.log(document.querySelector('a').getAttribute('href'))
 document.querySelector('a').setAttribute('href', 'https://www.amazon.com')
 console.dir(document.querySelector('h1').classList.contains('main-title'))
 
-// 
+console.dir(document.getElementsByTagName('li'))
+console.log(document.getElementsByTagName('li'))
+
+console.dir(document.getElementsByClassName('comment'))
+console.log(document.getElementsByClassName('comment'))
+
+commentEls = document.querySelectorAll('.comment')
+console.log(commentEls)
+
