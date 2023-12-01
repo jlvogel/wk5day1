@@ -68,9 +68,30 @@
 //   <script defer src="js/script.js"></script>
 // </head> */}
 
-// let titleEl = document.getElementById('title');
+let titleEl = document.getElementById('title');
 // console.log(titleEl);
 // console.dir(titleEl);
 // console.log(document.querySelector('h1'))
-console.log(document.querySelector('.main-title'))
-console.log(document.querySelectorAll('.main-title')[1])
+// console.log(document.querySelector('.main-title'))
+// console.log(document.querySelectorAll('.main-title')[1])
+
+let pEl = document.querySelector('.cool')
+// console.log(pE1)
+// console.dir(pE1)
+
+// console.log([1,2])
+// console.dir([1,2])
+
+// try to better understand the difference between console.log
+// and console.dir in the browser console (currently using chrome)
+
+// pE1.innerHTML = '<strong>Today</strong>'
+// pE1.textContent = '<strong>Today</strong>'
+
+console.dir(pEl.style)
+
+titleEl.style.textAlign = 'center'
+
+pEl.style.color = 'green'
+
+console.dir(pEl.style)
