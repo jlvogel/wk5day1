@@ -110,3 +110,16 @@ console.log(document.getElementsByClassName('comment'))
 commentEls = document.querySelectorAll('.comment')
 console.log(commentEls)
 
+for(let commentEl of commentEls) {
+  console.log(commentEl)
+}
+
+for(let commentEl of commentEls) {
+  console.log(commentEl)
+  commentEl.style.fontSize = '30px'
+}
+
+commentEls.forEach((commentEl, index) => {
+  index+=2
+  commentEl.style.fontSize = `${index*10}px`
+})
