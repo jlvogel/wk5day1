@@ -95,3 +95,9 @@ titleEl.style.textAlign = 'center'
 pEl.style.color = 'green'
 
 console.dir(pEl.style)
+
+console.log(document.querySelector('a').hasAttribute("href"))
+console.log(document.querySelector('a').getAttribute('href'))
+document.querySelector('a').setAttribute('href', 'https://www.amazon.com')
+console.dir(document.querySelector('h1').classList.contains('main-title'))
+
